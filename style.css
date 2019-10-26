@@ -1,0 +1,434 @@
+@font-face {
+    font-family: ModernEra-Black;
+    src: url(ModernEra-Black.woff);
+}
+@font-face {
+    font-family: ModernEra-Regular;
+    src: url(ModernEra-Regular.woff);
+}
+@font-face {
+    font-family: ModernEra-Bold;
+    src: url(ModernEra-Bold.woff);
+}
+a:hover
+{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.font_family_MEB
+{
+    font-family: 'ModernEra-Black', sans-serif;
+}
+.font_family_MER
+{
+    font-family: 'ModernEra-Regular', sans-serif;
+}
+.font_family_MER_bold
+{
+    font-family: 'ModernEra-Bold', sans-serif;
+}
+.font_size_70px
+{ 
+    font-size: 70px;
+    line-height: 70px;
+}
+.font_size_50px
+{
+    font-size: 50px;
+    line-height: 50px;
+}
+.font_size_35px
+{
+    font-size: 35px;
+    line-height: 35px;
+}
+.font_size_24px
+{
+    font-size: 24px;
+    line-height: 24px;
+}
+.font_size_18px
+{
+    font-size: 18px;
+}
+.font_size_18px_LH_28px
+{
+    font-size: 18px;
+    line-height: 28px;
+}
+.font_size_14px
+{
+    font-size: 14px;
+}
+.font_color_4d4d4d
+{
+    color: #4d4d4d;
+}
+.font_color_f58466
+{
+    color: #f58466;
+}
+.font_color_ffffff
+{
+    color: #ffffff;
+}
+.font_color_000000
+{
+    color: #000000;
+}
+.font_color_2f2d2e
+{
+    color: #2f2d2e;
+}
+.font_color_065164
+{
+    color: #065164;
+}
+.font_color_c0c0c0
+{
+    color: #c0c0c0;
+}
+.margin_bottom_10px
+{
+    margin-bottom: 10px;
+}
+.margin_bottom_15px
+{
+    margin-bottom: 15px;
+}
+.margin_bottom_20px
+{
+    margin-bottom: 20px;
+}
+.margin_bottom_25px
+{
+    margin-bottom: 25px;
+}
+.margin_bottom_30px
+{
+    margin-bottom: 30px;
+}
+.margin_bottom_40px
+{
+    margin-bottom: 40px;
+}
+.margin_bottom_100px
+{
+    margin-bottom: 100px;
+}
+.padding_top_bottom_240px
+{
+    padding:240px 15px;
+}
+.padding_top_bottom_130px
+{
+    padding:130px 15px;
+}
+.padding_top_bottom_120px
+{
+    padding:120px 15px;
+}
+
+img
+{
+    max-width: 100%;
+}
+html, body
+{
+    height: 100%;
+}
+.section_1
+{
+    background-color: #000000;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section_2
+{
+    background-color: #885b22;
+    background-image: url(second-panel-image.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.white_line
+{
+    background: white;
+    height: 10px;
+    width: 45px;
+    float: left;
+    margin-bottom: 30px;
+}
+.white_button
+{
+    float: left;
+    padding: 10px 70px;
+    width: 68%;
+    background: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.white_button:hover,
+.white_button:active,
+.white_button:visited,
+.white_button:focus
+{
+    text-decoration: none;
+    color: initial;
+}
+.section_3
+{
+    background: #000000;
+    padding-top: 40px;
+}
+.section_3 img
+{
+    width: 200px;
+}
+.p_coveo
+{
+    text-align: left;
+}
+.p_congi
+{
+    text-align: right;
+}
+.section_4
+{
+    padding: 120px 15px;
+}
+.black_line
+{
+    background: #2f2d2e;
+    height: 10px;
+    width: 45px;
+    float: left;
+    margin-bottom: 30px;
+}
+.speaker_session_div
+{
+    padding: 20px 0px;
+    border-bottom: 2px solid #2f2d2e;
+}
+.speaker_session_div:first-child
+{
+    border-top: 2px solid #2f2d2e;
+}
+.black_button_cont
+{
+    position: absolute;
+    bottom: 0px;
+}
+.black_button
+{
+    float: left;
+    width: 100%;
+    background: #2f2d2e;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.black_button:hover,
+.black_button:active,
+.black_button:visited,
+.black_button:focus
+{
+    text-decoration: none;
+    color: #fff;
+}
+.section_5
+{
+    background: #000 url(HZTL_Dreamforce2019_LP_Agenda-bkgd.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.white_button_cont
+{
+    position: absolute;
+    bottom: 0px;
+}
+.white_button_1
+{
+    float: left;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+.white_button_1:hover,
+.white_button_1:active,
+.white_button_1:visited,
+.white_button_1:focus
+{
+    text-decoration: none;
+    color: initial;
+}
+.section_6
+{
+    background: #065164 url(HZTL_Dreamforce2019_LP_SignUp-bkgd.jpg);
+    position: relative;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.font_color_4d4d4d:hover, .font_color_c0c0c0:hover
+{
+    color: #f7b5a5 !important;
+    cursor: pointer;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+.form_field
+{
+    margin-bottom: 30px;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.button_white
+{
+    border: 5px solid #fff;
+    background: transparent;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px 80px;
+}
+.text_box_line
+{
+    height: 35px;
+    width: 100%;
+    padding-bottom: 15px;
+    border: none;
+    border-bottom: 5px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+}
+.text_box_label
+{
+    height: 30px;
+    color: #fff;
+}
+.text_box_area
+{
+    margin-top: -30px;
+}
+.section_7
+{
+    background: #393738;
+    padding: 30px;
+}
+.social_link
+{
+    color: #fff;
+    font-size: 18px;
+    margin-right: 10px;
+    float: left;
+}
+.footer_links:hover, .footer_links:visited, .footer_links:active, .footer_links:focus, .social_link:hover, .social_link:visited, .social_link:active, .social_link:focus
+{
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.last_sec_text
+{
+    color: #2f2d2e;
+    font-size: 18px;
+}
+.last_sec_text a , .last_sec_text a:hover, .last_sec_text a:visited, .last_sec_text a:active, .last_sec_text a:focus
+{
+    color: #2f2d2e;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+    .font_size_70px
+    { 
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .white_button_cont
+    {
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .black_button_cont
+    {
+        position: relative; 
+        margin-bottom: 10px;
+    }
+    .white_button_1
+    {
+        padding: 15px;
+    }
+    .black_button
+    {
+        padding: 15px;
+    }
+    .margin_bottom_100px
+    {
+        margin-bottom: 10px;
+    }
+    .white_button
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .speaker_session_div
+    {
+        display: flex; 
+        flex-flow: column;
+    }
+    .event_time_date
+    {
+        order:2;
+        margin-top: 15px;
+    }
+    .event_content
+    {
+        order:1;
+    }
+    .event_headshots
+    {
+        display: none;
+    }
+    .section_1
+    {
+        background-size: 200%;
+        background-repeat: repeat;
+        background-position: top;
+    }
+    .section_6
+    {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        min-height: auto;
+    }
+
+    .section_3
+    {
+        display: flex; 
+        flex-flow: column;
+        padding-bottom: 40px;
+    }
+    .p_writeup
+    {
+        order: 1;
+    }
+    .p_coveo
+    {
+        text-align: center;
+        order: 2;
+    }
+    .p_congi
+    {
+        text-align: center;
+        order: 3;
+    }
+}
