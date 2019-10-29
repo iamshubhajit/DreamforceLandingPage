@@ -402,11 +402,9 @@ input:focus, textarea:focus, select:focus{
     {
         display: none;
     }
-    .section_1
+    .section_5
     {
-        background-size: 200%;
-        background-repeat: repeat;
-        background-position: top;
+        background: #000;
     }
     .section_6
     {
